@@ -1,6 +1,6 @@
 ---
 title: "Etude sur les manchots"
-author: "Tom-Hadrian SY et Agathe"
+author: "Tom-Hadrian SY et Agathe et Lucille"
 date: "9/2/2021"
 output: html_document
 ---
@@ -23,4 +23,4 @@ L'objectif de cette classe est de proposer des représentations graphiques de ce
 library(palmerpenguins)
 ```
 
-
+Test de push
