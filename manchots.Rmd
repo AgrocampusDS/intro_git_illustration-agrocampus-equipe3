@@ -30,3 +30,19 @@ Les manchots sont très sympas et très mignons et gentil :)
 plot(x = 1:100, y = sort(rnorm(100, 0, 1)), pch = 16, main = "loi normale", ylab = "Valeurs de la loi normale", xlab = "")
 ```
 
+On importe les données du package
+```{r}
+data = penguins
+dim(data)
+str(data)
+```
+
+Quelles caractéristiques anatomiques sont propres aux mâles, femelles, espèces etc. ?
+```{r}
+library(FactoMineR)
+res = PCA(data, quali.sup = c(1,2,7), quanti.sup = 8)
+```
+
+
+
+
