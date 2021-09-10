@@ -24,3 +24,7 @@ library(palmerpenguins)
 ```
 
 Les manchots sont très sympas
+
+```{r}
+plot(x = 1:100, y = sort(rnorm(100, 0, 1)), pch = 16, main = "loi normale")
+```
