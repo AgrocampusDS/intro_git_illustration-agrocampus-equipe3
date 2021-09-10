@@ -23,14 +23,10 @@ L'objectif de cette classe est de proposer des représentations graphiques de ce
 library(palmerpenguins)
 ```
 
-<<<<<<< HEAD
 Les manchots sont très sympas
-
-```{r}
-plot(x = 1:100, y = sort(rnorm(100, 0, 1)), pch = 16, main = "loi normale")
-```
-=======
-
 Les manchots sont très sympas et très mignons :)
 
->>>>>>> 42e5acc58cd4b09b42254e21e3afd4b028b3b0de
+```{r}
+plot(x = 1:100, y = sort(rnorm(100, 0, 1)), pch = 16, main = "loi normale", ylab = "Valeurs de la loi normale", xlab = "")
+```
+
