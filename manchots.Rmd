@@ -1,6 +1,6 @@
 ---
 title: "Etude sur les manchots"
-author: "Tom-Hadrian SY"
+author: "Tom-Hadrian SY et Agathe"
 date: "9/2/2021"
 output: html_document
 ---
