@@ -38,9 +38,14 @@ str(data)
 ```
 
 Quelles caractéristiques anatomiques sont propres aux mâles, femelles, espèces etc. ?
-```{r}
+```{r ACP}
 library(FactoMineR)
 res = PCA(data, quali.sup = c(1,2,7), quanti.sup = 8)
+```
+
+```{r ACP visualisation}
+plot(res, invisible = c("ind"))
+
 ```
 
 
