@@ -23,4 +23,4 @@ L'objectif de cette classe est de proposer des représentations graphiques de ce
 library(palmerpenguins)
 ```
 
-Test de push
+Les manchots sont très sympas
