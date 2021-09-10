@@ -23,4 +23,6 @@ L'objectif de cette classe est de proposer des représentations graphiques de ce
 library(palmerpenguins)
 ```
 
-azeazeaeazeazeaez
+
+Les manchots sont très sympas et très mignons :)
+
